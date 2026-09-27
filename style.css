@@ -1,0 +1,15 @@
+:root { --ink: #1d1d1f; --muted: #6e6e73; --line: #e3e3e8; --accent: #0f7a5c; --bg: #f5f5f7; --card: #fff; }
+@media (prefers-color-scheme: dark) { :root { --ink: #f5f5f7; --muted: #a1a1a6; --line: #38383a; --accent: #3fc79a; --bg: #000; --card: #1c1c1e; } }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif; color: var(--ink); background: var(--bg); line-height: 1.7; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.7rem; margin: 0 0 4px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; color: var(--accent); }
+h3 { font-size: 1rem; margin: 20px 0 4px; }
+p, li { color: var(--ink); }
+.lead { color: var(--muted); margin: 0 0 24px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin: 16px 0; }
+a { color: var(--accent); }
+nav { font-size: .9rem; margin-bottom: 24px; }
+footer { margin-top: 48px; font-size: .85rem; color: var(--muted); }
+.small { font-size: .9rem; color: var(--muted); }
